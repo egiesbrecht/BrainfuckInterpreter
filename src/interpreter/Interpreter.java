@@ -84,6 +84,7 @@ public class Interpreter {
 			System.out.println("Output/Program input:");
 		}
 		interpret(in);
+		System.out.println();
 	}
 	
 	

@@ -12,4 +12,3 @@ every non brainfuck token will be treated as a comment
 ------.
 <++[>----<-]>.
 <+++++++++++[>------<-]>-.
->+++[>+++<-]>+.
