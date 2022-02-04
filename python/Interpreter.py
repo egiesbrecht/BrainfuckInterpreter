@@ -56,7 +56,7 @@ def interpret(cinput):
                     elif cinput[i] == '[':
                         c -= 1
                     i -= 1
-                i -= 1
+                #i -= 1
         i += 1
     print("")
 
