@@ -27,7 +27,7 @@ def interpret(cinput):
             if memory[pointer] == 255:
                 memory[pointer] = 0
             else:
-             memory[pointer] += 1
+                memory[pointer] += 1
 
         elif cinput[i] == '-':
             if memory[pointer] == 0:
