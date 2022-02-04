@@ -24,10 +24,16 @@ def interpret(cinput):
                 pointer -= 1
 
         elif cinput[i] == '+':
-            memory[pointer] += 1
+            if memory[pointer] == 255:
+                memory[pointer] = 0
+            else:
+             memory[pointer] += 1
 
         elif cinput[i] == '-':
-            memory[pointer] -= 1
+            if memory[pointer] == 0:
+                memory[pointer] = 255
+            else:
+                memory[pointer] -= 1
 
         elif cinput[i] == ',':
             memory[pointer] = ord(input()[0])
